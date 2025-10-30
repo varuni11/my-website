@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Simple Index</title>
+  <style>
+    body { font-family: system-ui,Segoe UI,Roboto,Arial; margin:0; display:grid; place-items:center; min-height:100vh; background:#f6f7fb; }
+    .card { background:#fff; padding:1.5rem; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.06); text-align:center; width:320px; }
+    button { margin-top:1rem; padding:.6rem 1rem; border:0; border-radius:8px; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <main class="card" role="main">
+    <h1>Welcome</h1>
+    <p>A tiny starter index page — edit me!</p>
+     <p>This is my first HTML page!</p>   
+    <button id="greet">Say Hii.</button>
+  </main>
+
+  <script>
+    document.getElementById('greet').addEventListener('click', () => {
+      alert('Hello — this is your index.html!');
+    });
+  </script>
+</body>
+</html>
